@@ -1,0 +1,46 @@
+body {
+    background: gray;
+}
+
+.background {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.boton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.boton:active {
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    margin: auto;
+}
+
+#btn-azul {
+    background: blue;
+}
+
+#btn-rojo {
+    background: red;
+}
+
+#btn-amarillo {
+    background: yellow;
+}
